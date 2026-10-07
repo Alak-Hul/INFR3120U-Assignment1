@@ -70,7 +70,13 @@ h1,h2,h3,h4,h5,h6,p,li {
 .clear {
     clear: both;
 }
+
 #profile {
     height: 32px;
     float:left
+}
+
+#aboutmephoto {
+  height: 128px;
+  margin: 15px;
 }

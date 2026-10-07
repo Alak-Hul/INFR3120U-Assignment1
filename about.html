@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kurtis' Portfolio</title>
+    <meta name="viewport" content="width=device-width">
+    <!--style sheet is for full-size monitor-->
+    <link href="full.css" rel="stylesheet" type="text/css" 
+    media="only screen and (min-width:960px)">
+    <!--style sheet is for tablet-->
+    <link href="tablet.css" rel="stylesheet" type="text/css"
+    media="only screen and (min-width:481px) and (max-width:959px)">
+    <!--style sheet is for smart phone-->
+    <link href="smartphone.css" rel="stylesheet" type="text/css"
+    media="only screen and (max-width:480px)">
+</head>
+<div id="wrapper">
+    <header>
+        <h1>Kurtis Stubbe</h1>
+        <p>Ungraduate Student</p>
+        <div id="nav-container">
+            <img id="profile" src="profile.png" alt="[profile picture unavailable]">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <article>
+        <h2>About Myself</h2>
+        <div class="image-container">
+            <img id="about-me-photo" src="AboutMePhoto.jpg" alt="[About Me photo unavailable]"/>
+        </div>
+        <p>
+            I am a third-year Information Technology Networking and Security student at Ontario Tech University. 
+            My passion for technology extends well beyond the classroom; I spend a lot of my free time tinkering 
+            with my home server, experimenting with Linux environments, and exploring network configurations 
+            like Tailscale. When I step away from the keyboard, I am usually immersing myself in narrative-driven 
+            action games like The Witcher or Metro, or working hands-on in the kitchen perfecting everything from 
+            scratch-made bone broth to Tiramisu.
+        </p>
+        <div class="image-container">
+
+            <h3>Watch my video</h3>
+            <video 
+            controls 
+            width="320" height="220" 
+            poster="thumbnail.png"
+            id="video"
+            preload>
+            <source src="video.mp4" type="video/mp4">
+            <source src="video.ogv" type="video/ogg">
+        </video>
+    </div>
+    </article>
+    <footer>
+        <address>
+            <p>
+                Contact me at <a href="mailto:kurtis.stubbe@ontariotechu.net">
+                kurtis.stubbe@ontariotechu.net</a>
+            </p>
+        </address>
+    </footer>
+</div>

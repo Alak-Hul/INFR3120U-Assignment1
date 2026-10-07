@@ -75,10 +75,17 @@ header nav a {
     height: 32px;
     float:left
 }
-article h2 {
-    margin: 12px
+#about-me-photo {
+  height: 128px;
+  
 }
-
+article h2,h3,p {
+    margin: 12px;
+    text-align: center;
+}
+.image-container {
+    text-align: center;
+}
 .clear {
     clear: both;
 }
