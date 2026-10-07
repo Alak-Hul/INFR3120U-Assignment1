@@ -41,8 +41,8 @@ section {
 }
 
 .card {
-  background-color: #F2EDD5;
-  border: 1px solid #F26716;
+  background-color: #F26716;
+  border: 1px solid #04261E;
   border-radius: 8px;
   padding: 20px;
   flex:1;
