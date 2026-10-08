@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kurtis' Portfolio</title>
+    <meta name="viewport" content="width=device-width">
+    <!--style sheet is for full-size monitor-->
+    <link href="full.css" rel="stylesheet" type="text/css" 
+    media="only screen and (min-width:960px)">
+    <!--style sheet is for tablet-->
+    <link href="tablet.css" rel="stylesheet" type="text/css"
+    media="only screen and (min-width:481px) and (max-width:959px)">
+    <!--style sheet is for smart phone-->
+    <link href="smartphone.css" rel="stylesheet" type="text/css"
+    media="only screen and (max-width:480px)">
+</head>
+<div id="wrapper">
+    <header>
+        <h1>Kurtis Stubbe</h1>
+        <p>Ungraduate Student</p>
+        <div id="nav-container">
+            <img id="profile" src="Profile.png" alt="[profile picture unavailable]">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <article>
+        <h2>Feedback ... Stay in touch</h2>
+        <form action="mailto:kurtis.stubbe@ontariotechu.net?subject=Feedback on webiste"
+        method="post" enctype="text/plain" name="feedback_form">
+            <p>
+                <label for="Fname">First Name :</label>
+                <input type="text" id="Fname" size="32" placeholder="Enter your first name" required>
+            </p>
+            <p>
+                <label for="Lname">Last Name :</label>
+                <input type="text" id="Lname" size="32" placeholder="Enter your last name" required>
+            </p>
+            <p>
+                <label for="email>">Email :</label>
+                <input type="email" id="email" size="40" placeholder="Enter your email" required>
+            </p>
+            <p>
+                <label for="tel">Phone Number :</label>
+                <input type="tel" id="tel" size="28" placeholder="Enter your Phone Number" required>
+            </p>
+            <p>
+                <label for="comments">Comments</label><br>
+                <textarea name="comments" cols="60" rows="6"></textarea>
+            </p>
+            <p>
+                <input type="checkbox" name="mailist">
+                <label for="mailist">Put me on your e-list</label>
+            </p>
+            <p>
+                <label for="where">How did you find us</label>
+                <select name="where">
+                    <option value="Search engine">Search Engine</option>
+                    <option value="Social Media">Social Media</option>
+                    <option value="Words of mouth">Words of mouth</option>
+                    <option value="other">Other</option>
+                </select>
+            </p>
+            <p>
+                <label for="counteries">Where do you live</label>
+                <input list="counteries">
+                <datalist id="counteries">
+                    <option value="Afghanistan"> 
+                    <option value="Albania"> 
+                    <option value="Algeria">
+                    <option value="Andorra"> 
+                    <option value="Angola">
+                    <option value="Antigua and Barbuda">
+                    <option value="Argentina"> 
+                    <option value="Armenia"> 
+                    <option value="Aruba"> 
+                    <option value="Australia"> 
+                    <option value="Austria"> 
+                    <option value="Azerbaijan">
+                </datalist>
+            </p>
+            <p>
+                <label for="radio">Do you like our webpage</label>
+                <input type="radio" id="radio" value="Yes">
+                <label for="radio">Yes</label>
+                <input type="radio" id="radio" value="No">
+                <label for="radio">No</label>
+            </p>
+            <p><label for="DoB">What's your birthday</label>
+            <input type="date" name="DoB"></p>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+    </article>
+    <footer>
+        <address>
+            <p>
+                Contact me at <a href="mailto:kurtis.stubbe@ontariotechu.net">
+                kurtis.stubbe@ontariotechu.net</a>
+                <a></a>
+            </p>
+        </address>
+    </footer>
+</div>
