@@ -9,17 +9,16 @@ body {
 }
 
 header {
-  background-color: #084A24;
-  color: white;
+  background: linear-gradient(to left, #084A24 0%,#04261E 100%);
+  color: #F2EDD5;
   padding: 20px;
   text-align: center;
 }
 
 header nav a {
-  color: white;
+  color: #F2EDD5;
   margin:0 10px;
   text-decoration: none;
-
 }
 
 section {
@@ -30,18 +29,17 @@ section {
   display: flex;
   gap:20px;
   flex-wrap: wrap;
-
 }
 
 #wrapper {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#D99437;
+    background:radial-gradient(ellipse at center,  #E7390D 40%,#F26716 77%);
 }
 
 .card {
-  background-color: #F26716;
+  background: linear-gradient(to bottom, #F26716 0%,#E7390D 100%);
   border: 1px solid #04261E;
   border-radius: 8px;
   padding: 20px;
@@ -78,6 +76,9 @@ header nav a {
 #about-me-photo {
   height: 128px;
   
+}
+article {
+  background: linear-gradient(to bottom, #084A24 0%,#04261E 100%);
 }
 article h2,h3,p {
     margin: 12px;
