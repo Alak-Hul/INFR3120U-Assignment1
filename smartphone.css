@@ -69,7 +69,6 @@ h1,h2,h3,h4,h5,h6,p,li {
     height: 32px;
     float:left
 }
-#aboutmephoto {
-    height: 128px;
-    margin: 15px;
+#about-me-photo {
+  height: 128px;
 }
