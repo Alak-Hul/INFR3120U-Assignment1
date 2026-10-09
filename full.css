@@ -63,6 +63,9 @@ section {
   flex:1;
   min-width: 200px;
 }
+.card a {
+  color: #084A24;
+}
 
 footer {
   background-color: #04261E;

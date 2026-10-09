@@ -82,6 +82,9 @@ article {
 a {
   color: #F26716;
 }
+.card a {
+  color: #084A24;
+}
 
 .button:hover {
     box-shadow: 5px 5px 3px #04261E;
