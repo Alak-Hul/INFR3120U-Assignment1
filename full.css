@@ -18,7 +18,6 @@ h1,h2,h3,h4,h5,h6,p,li {
     background:radial-gradient(ellipse at center,  #E7390D 40%,#F26716 77%);
 }
 
-
 header {
   background: linear-gradient(to left, #084A24 0%,#04261E 100%);
   color: #F2EDD5;
@@ -41,8 +40,6 @@ section {
   gap:20px;
   flex-wrap: wrap;
 }
-
-
 .card {
   background: linear-gradient(45deg, #F26716 0%,#E7390D 100%);
   border: 1px solid #04261E;
@@ -72,18 +69,12 @@ header nav {
   margin-left: 10px;     
 }
 
-header nav a {
-  color: #F2EDD5;
-  margin: 0 10px;
-}
-
 #profile {
     height: 32px;
     float:left
 }
 #about-me-photo {
   height: 128px;
-  
 }
 article {
   background: linear-gradient(to bottom, #084A24 0%,#04261E 100%);
