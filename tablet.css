@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    color: #F2EDD5;
+    background-color: #04261E;
     font-family: Verdana, Geneva, Arial, sans-serif;
     padding: 0px;
     margin: 0px;
@@ -10,7 +10,8 @@ body {
 h1,h2,h3,h4,h5,h6,p,li {
     margin-left: 15px;
     margin-top: 0px;
-}
+} 
+
 
 #wrapper {
     width: 100%;
