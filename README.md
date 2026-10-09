@@ -4,6 +4,7 @@ Kurtis Stubbe's Portfolio
 
 Colours Scheme Used: My Color Theme by Helena Simonová
 This color palette has no tags
+https://color.adobe.com/explore?color-palette=F2EDD5%2CE7390D%2CF26716%2C084A24%2C04261E&color-palette-name=My+Color+Theme
 exported as css:
 .My-Color-Theme-1-hex { color: #F2EDD5; }
 .My-Color-Theme-2-hex { color: #E7390D; }
@@ -56,4 +57,4 @@ Desktop - 960px
 Tablet - min-width(481px) and max-width(959px)
 Smartphone - max-width(480px)
 
-These values where chosen to adhere to the 960px standard, allow develpers to give accessible UI design depending, on the users display. 
+These values were chosen to adhere to the 960px standard, allow develpers to give accessible UI design depending, on the users display. that defines that a desktop is greater than 960px, and a smartphone is less then 480px while tablets are in between 
