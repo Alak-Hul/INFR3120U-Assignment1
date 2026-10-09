@@ -2,7 +2,7 @@
 
 Kurtis Stubbe's Portfolio 
 
-Colours Scheme Used: My Color Theme by Helena Simonová
+Colours palette Used: My Color Theme by Helena Simonová
 This color palette has no tags
 https://color.adobe.com/explore?color-palette=F2EDD5%2CE7390D%2CF26716%2C084A24%2C04261E&color-palette-name=My+Color+Theme
 exported as css:
@@ -11,6 +11,10 @@ exported as css:
 .My-Color-Theme-3-hex { color: #F26716; }
 .My-Color-Theme-4-hex { color: #084A24; }
 .My-Color-Theme-5-hex { color: #04261E; }
+
+Code used:
+Most of the code from (index.html, about.html, and contact.html) was directly taken from lecture code, I did do the navigation bar, and the articles for index.html and about.html. I did copy code for the week three tutorial for the project.html. all the css was more or less copied from the lecture 3 for full.css, tablet.css, and smartphone.css with tweak by removing definitions I didn't use, and changed the colour to complie with my palette.
+
 
 Gradients I used:
 I used a linear gradients in the header (navigation bar) on the Desktop CSS (Full.css)
