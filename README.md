@@ -56,4 +56,4 @@ Desktop - 960px
 Tablet - min-width(481px) and max-width(959px)
 Smartphone - max-width(480px)
 
-These values where chosen to adhear to the 960px standard, allow develpers to give accessible UI design depending, on the users display. 
+These values where chosen to adhere to the 960px standard, allow develpers to give accessible UI design depending, on the users display. 

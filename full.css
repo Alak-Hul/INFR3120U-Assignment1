@@ -56,7 +56,7 @@ section {
 }
 
 .card {
-  background: linear-gradient(to bottom, #F26716 0%,#E7390D 100%);
+  background: linear-gradient(45deg, #F26716 0%,#E7390D 100%);
   border: 1px solid #04261E;
   border-radius: 8px;
   padding: 20px;
