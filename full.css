@@ -1,6 +1,3 @@
-* {
-  box-sizing: border-box;
-}
 
 body {
     background-color: #04261E;
@@ -18,12 +15,9 @@ h1,h2,h3,h4,h5,h6,p,li {
     height: 800px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #F2EDD5;
+    background:radial-gradient(ellipse at center,  #E7390D 40%,#F26716 77%);
 }
 
-.clear {
-    clear: both;
-}
 
 header {
   background: linear-gradient(to left, #084A24 0%,#04261E 100%);
@@ -48,12 +42,6 @@ section {
   flex-wrap: wrap;
 }
 
-#wrapper {
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    background:radial-gradient(ellipse at center,  #E7390D 40%,#F26716 77%);
-}
 
 .card {
   background: linear-gradient(45deg, #F26716 0%,#E7390D 100%);
