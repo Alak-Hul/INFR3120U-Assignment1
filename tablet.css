@@ -1,35 +1,42 @@
-@charset "UTF-8";
 
 body {
     background-color: #04261E;
+    color: #F2EDD5;
     font-family: Verdana, Geneva, Arial, sans-serif;
     padding: 0px;
     margin: 0px;
 }
-
 h1,h2,h3,h4,h5,h6,p,li {
     margin-left: 15px;
     margin-top: 0px;
-} 
-
+    color: #F2EDD5;
+}
 
 #wrapper {
-    width: 100%;
+    width: 90%;
     height: 800px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #F2EDD5;
+    background: linear-gradient(to bottom, #084A24 0%,#04261E 100%);
+}
+
+article {
+  background: linear-gradient(to bottom, #084A24 0%,#04261E 100%);
+    color: #F2EDD5;
+    text-align: center;
 }
 
 #right-column {
+    width: 100%;
     float: none;
-    height: 600px;
+    height: 1200px;
     background-color: #F26716;
 }
 
 #left-column {
     float: none;
     height: 120px;
+    width: 100%;
 }
 
 #footer {
@@ -38,15 +45,14 @@ h1,h2,h3,h4,h5,h6,p,li {
 }
 
 #banner {
-    height: 60px;
+    height: 100px;
     background-color: #04261E;
 }
 
 .box {
-    width: 45%;
+    width: 90%;
     min-height: 120px;
-    float: left;
-    background-color: #04261E;
+    background-color: #E7390D;
     margin: 15px;
     opacity: 1;
 }
@@ -54,29 +60,27 @@ h1,h2,h3,h4,h5,h6,p,li {
 .button {
     font-size: x-large;
     text-decoration: none;
-    background-color: #E7390D;
+    background-color: #F26716;
     display: block;
     width: 25%;
     float: left;
-    padding: 8px;
+    padding: 5px;
     margin: 5px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 3px #084A24;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px #F2EDD5;
+}
+
+a {
+  color: #F26716;
 }
 
 .button:hover {
     box-shadow: 5px 5px 3px #04261E;
 }
-
-.clear {
-    clear: both;
-}
-
 #profile {
     height: 32px;
     float:left
 }
-
 #about-me-photo {
-  height: 128px; 
+  height: 128px;
 }

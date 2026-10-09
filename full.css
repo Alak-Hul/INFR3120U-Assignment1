@@ -96,10 +96,8 @@ header nav a {
 }
 article {
   background: linear-gradient(to bottom, #084A24 0%,#04261E 100%);
-}
-article {
-    color: #F2EDD5;
-    text-align: center;
+  color: #F2EDD5;
+  text-align: center;
 }
 .image-container {
     text-align: center;
