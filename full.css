@@ -3,9 +3,26 @@
 }
 
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: #F2EDD5;
+    background-color: #04261E;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1,h2,h3,h4,h5,h6,p,li {
+    margin-left: 15px;
+}
+
+#wrapper {
+    width: 66%;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F2EDD5;
+}
+
+.clear {
+    clear: both;
 }
 
 header {
@@ -80,8 +97,8 @@ header nav a {
 article {
   background: linear-gradient(to bottom, #084A24 0%,#04261E 100%);
 }
-article h2,h3,p {
-    margin: 12px;
+article {
+
     text-align: center;
 }
 .image-container {

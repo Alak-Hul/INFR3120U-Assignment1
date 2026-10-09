@@ -22,7 +22,7 @@ h1,h2,h3,h4,h5,h6,p,li {
     width: 100%;
     float: none;
     height: 1200px;
-    background-color: DarkOrange;
+    background-color: #F26716;
 }
 
 #left-column {
@@ -33,18 +33,18 @@ h1,h2,h3,h4,h5,h6,p,li {
 
 #footer {
     height: 80px;
-    background-color: black;
+    background-color: #04261E;
 }
 
 #banner {
     height: 100px;
-    background-color: black;
+    background-color: #04261E;
 }
 
 .box {
     width: 90%;
     min-height: 120px;
-    background-color: dark-red;
+    background-color: #E7390D;
     margin: 15px;
     opacity: 1;
 }
@@ -52,18 +52,18 @@ h1,h2,h3,h4,h5,h6,p,li {
 .button {
     font-size: x-large;
     text-decoration: none;
-    background-color: LightBlue;
+    background-color: #F26716;
     display: block;
     width: 25%;
     float: left;
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
-    box-shadow: 5px 5px 3px gray;
+    box-shadow: 5px 5px 3px #F2EDD5;
 }
 
 .button:hover {
-    box-shadow: 5px 5px 3px black;
+    box-shadow: 5px 5px 3px #04261E;
 }
 #profile {
     height: 32px;
