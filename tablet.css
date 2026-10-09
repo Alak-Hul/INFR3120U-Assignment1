@@ -12,6 +12,15 @@ h1,h2,h3,h4,h5,h6,p,li {
     color: #F2EDD5;
 }
 
+.card {
+  background: linear-gradient(to bottom, #F26716 0%,#E7390D 100%);
+  border: 1px solid #04261E;
+  border-radius: 8px;
+  padding: 20px;
+  flex:1;
+  min-width: 200px;
+}
+
 #wrapper {
     width: 90%;
     height: 800px;

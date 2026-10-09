@@ -20,6 +20,15 @@ h1,h2,h3,h4,h5,h6,p,li {
     background: linear-gradient(to bottom, #084A24 0%,#04261E 100%);
 }
 
+.card {
+  background: linear-gradient(to bottom, #F26716 0%,#E7390D 100%);
+  border: 1px solid #04261E;
+  border-radius: 8px;
+  padding: 20px;
+  flex:1;
+  min-width: 200px;
+}
+
 article {
   background: linear-gradient(to bottom, #084A24 0%,#04261E 100%);
     color: #F2EDD5;
